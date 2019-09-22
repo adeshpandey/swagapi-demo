@@ -22,7 +22,6 @@ readme-renderer==24.0
 requests==2.22.0
 requests-toolbelt==0.9.1
 six==1.12.0
-swagapi-demo==0.0.1
 swagger-ui-bundle==0.0.5
 tqdm==4.35.0
 twine==1.14.0
