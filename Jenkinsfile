@@ -9,6 +9,8 @@ pipeline {
     stage('test') {
       steps {
         echo 'Testing will be done'
+        sh '''pip install -r requirements\\
+pytest'''
       }
     }
   }
