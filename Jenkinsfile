@@ -10,7 +10,7 @@ pipeline {
       steps {
         echo 'Testing will be done'
         sh '''pip install -r requirements.txt &&
-pytest'''
+pip install pytest && pytest'''
       }
     }
   }
